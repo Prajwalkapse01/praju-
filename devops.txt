@@ -1,0 +1,49 @@
+==================================================================================file=================================================================================
+touch        : to create a file 
+ls           : to see the list (only name)
+ll           : full information 
+ls -a/ll -a  : to see the hiddenfile
+cat file1    : to see the content of a file 
+cat>file1    : to insert the content 
+ctrl + d     : save the content 
+cat>>file1   : to insert the content second time 
+
+========================================================================file==remove=copy=delete=move================================================================
+*  mean all in the linux
+cp file1 file2    : copies the content on file1 to file2 
+mv file1 file2    : moves the content on file1 file2 
+rm file1          : to delete the file 
+rm -f file1       : to delete forcefully 
+touch file(1..20) : to create multiple  files
+rm -f j*          : to remove only file name starting with j 
+rm -f file(2..7)  : to remove file2 to file7
+================================================================================file read size=========================================================================
+head  file1       : to see the top 10 line 
+head -5 file1     : to see top 5 line  
+tail file1        : to see the last 10 line 
+tail -5 file1     : to see last 5 line 
+sed -n '5,15p' file1 : to print lines from 5 to 15
+wc raham           : to print lines,words, charcters of a file 
+du -sh raham : to show the size of a file 
+========================================================⁯Directory=====================================================================================================
+mkdir dir1   : to create a folder 
+cd            : change directory 
+cd dir1       : go to dir1 
+cd ..          : come back to one folder back 
+cd            : gonig to root directory 
+cd -          : take you to the previous directory 
+pwd           : print working directory 
+=======================================================================================================================================================================
+types of os = mac os, windows, linux 
+1] what is os
+--> an operating system is a program that manage the computer hardware. it a intermediate between a user of computer and the computer hardware.
+2] what is the kernel 
+--> the main component of a linux os and is core interface between a computer's hardware and its process 
+3] measure component 
+kernel--> is intract with the hardware   
+demond --> background services 
+shell ---> program  command take input execute output
+
+
+ 
+=======================================================================================================================================================================
